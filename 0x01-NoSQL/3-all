@@ -1,0 +1,2 @@
+// shows all documents
+db.school.find().pretty()
