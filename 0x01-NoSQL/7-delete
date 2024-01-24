@@ -1,4 +1,2 @@
 // Deletes alldocuments with name Holberton
-db.school.deleteMany(
-    { name: "Holberton school" }
-)
+db.school.deleteMany({ name: "Holberton school" })

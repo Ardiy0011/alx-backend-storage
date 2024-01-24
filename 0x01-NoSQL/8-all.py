@@ -4,7 +4,7 @@
 
 def list_all(mongo_collection):
     """ List all documents in Python """
-    documents = mongo_collection.find()
+    documents = mongo_collection.find().pretty()
 
     if documents.count() == 0:
         return []
